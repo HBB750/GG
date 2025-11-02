@@ -15,6 +15,18 @@ reg add "HKCU\Software\Tencent\MobileGamePC" /v VMFpsLevel /t REG_SZ /d 90 /f
 
 echo ✅ ASUS ROG Phone 8 profile applied!
 
+echo 🔄 Cleaning GameLoop cache...
+rd /s /q "%Temp%\TxGameDownload"
+rd /s /q "%Temp%\TxGameAssistant"
+rd /s /q "%Temp%\Tencent"
+rd /s /q "C:\ProgramData\Tencent"
+echo ✅ Cache Cleaned Successfully
+
+
+
+
+
+
 
 
 
